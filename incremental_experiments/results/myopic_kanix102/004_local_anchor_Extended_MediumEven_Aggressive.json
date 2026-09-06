@@ -1,0 +1,31 @@
+{
+  "row_id": "local_anchor_Extended_MediumEven_Aggressive",
+  "suite": "local40",
+  "row_index": 4,
+  "family": "Extended",
+  "preset": "Base",
+  "allele_freqs": {
+    "GeneA": 0.08,
+    "GeneB": 0.08
+  },
+  "a_scale": 1.5,
+  "b_scale": 1.5,
+  "delta_shift": 0.1,
+  "fixed_cost": 0.01,
+  "variable_cost": 0.02,
+  "V_root": -0.14878384723202298,
+  "V_stop_root": -0.38003613695999994,
+  "L_myopic": -0.16196969803636121,
+  "ratio2_myopic": 0.05701933079170289,
+  "abs_regret_myopic": 0.013185850804338234,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "test",
+    "Grandfather"
+  ],
+  "root_match": true,
+  "n_states": 107728
+}

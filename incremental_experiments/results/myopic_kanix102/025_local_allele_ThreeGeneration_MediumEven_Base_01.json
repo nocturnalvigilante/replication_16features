@@ -1,0 +1,31 @@
+{
+  "row_id": "local_allele_ThreeGeneration_MediumEven_Base_01",
+  "suite": "local40",
+  "row_index": 25,
+  "family": "ThreeGeneration",
+  "preset": "Base",
+  "allele_freqs": {
+    "GeneA": 0.06,
+    "GeneB": 0.08
+  },
+  "a_scale": 1.0,
+  "b_scale": 1.0,
+  "delta_shift": 0.0,
+  "fixed_cost": 0.01,
+  "variable_cost": 0.02,
+  "V_root": -0.1054354698347423,
+  "V_stop_root": -0.1743069888,
+  "L_myopic": -0.11351107059675773,
+  "ratio2_myopic": 0.11725602808454347,
+  "abs_regret_myopic": 0.008075600762015425,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "test",
+    "Grandfather"
+  ],
+  "root_match": true,
+  "n_states": 20816
+}

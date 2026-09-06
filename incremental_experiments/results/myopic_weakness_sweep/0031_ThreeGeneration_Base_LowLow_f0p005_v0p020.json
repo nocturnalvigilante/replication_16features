@@ -1,0 +1,27 @@
+{
+  "family": "ThreeGeneration",
+  "preset": "Base",
+  "allele_label": "LowLow",
+  "allele_freqs": {
+    "GeneA": 0.02,
+    "GeneB": 0.02
+  },
+  "fixed_cost": 0.005,
+  "variable_cost": 0.02,
+  "V_root": -0.036236643391787504,
+  "V_stop_root": -0.056455660799999925,
+  "headroom": 0.02021901740821242,
+  "L_myopic": -0.04228943631040964,
+  "ratio2_myopic": 0.2993613782717085,
+  "abs_regret_myopic": 0.006052792918622138,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "test",
+    "Father"
+  ],
+  "root_match": false,
+  "n_states": 20816
+}

@@ -1,0 +1,31 @@
+{
+  "row_id": "Extended_LowHigh_Aggressive_fixed_0p015_variable_0p020",
+  "suite": "phase6_54",
+  "row_index": 26,
+  "family": "Extended",
+  "preset": "Base",
+  "allele_freqs": {
+    "GeneA": 0.02,
+    "GeneB": 0.15
+  },
+  "a_scale": 1.5,
+  "b_scale": 1.5,
+  "delta_shift": 0.1,
+  "fixed_cost": 0.015,
+  "variable_cost": 0.02,
+  "V_root": -0.15524970772140811,
+  "V_stop_root": -0.31819458339,
+  "L_myopic": -0.17381123038017715,
+  "ratio2_myopic": 0.113912895895669,
+  "abs_regret_myopic": 0.018561522658769036,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "test",
+    "Grandfather"
+  ],
+  "root_match": true,
+  "n_states": 107728
+}

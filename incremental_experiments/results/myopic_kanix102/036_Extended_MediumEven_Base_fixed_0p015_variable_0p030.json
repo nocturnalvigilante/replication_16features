@@ -1,0 +1,31 @@
+{
+  "row_id": "Extended_MediumEven_Base_fixed_0p015_variable_0p030",
+  "suite": "phase6_54",
+  "row_index": 36,
+  "family": "Extended",
+  "preset": "Base",
+  "allele_freqs": {
+    "GeneA": 0.08,
+    "GeneB": 0.08
+  },
+  "a_scale": 1.0,
+  "b_scale": 1.0,
+  "delta_shift": 0.0,
+  "fixed_cost": 0.015,
+  "variable_cost": 0.03,
+  "V_root": -0.17113209288108222,
+  "V_stop_root": -0.25633013759999995,
+  "L_myopic": -0.19396518528903872,
+  "ratio2_myopic": 0.26800019276600306,
+  "abs_regret_myopic": 0.0228330924079565,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "test",
+    "Child"
+  ],
+  "root_match": false,
+  "n_states": 107728
+}

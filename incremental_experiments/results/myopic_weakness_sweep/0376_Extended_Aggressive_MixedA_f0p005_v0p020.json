@@ -1,0 +1,27 @@
+{
+  "family": "Extended",
+  "preset": "Aggressive",
+  "allele_label": "MixedA",
+  "allele_freqs": {
+    "GeneA": 0.02,
+    "GeneB": 0.1
+  },
+  "fixed_cost": 0.005,
+  "variable_cost": 0.02,
+  "V_root": -0.08780023966908237,
+  "V_stop_root": -0.25495636463999943,
+  "headroom": 0.16715612497091706,
+  "L_myopic": -0.094530178928835,
+  "ratio2_myopic": 0.04026139790524306,
+  "abs_regret_myopic": 0.006729939259752626,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "test",
+    "Grandfather"
+  ],
+  "root_match": true,
+  "n_states": 107728
+}

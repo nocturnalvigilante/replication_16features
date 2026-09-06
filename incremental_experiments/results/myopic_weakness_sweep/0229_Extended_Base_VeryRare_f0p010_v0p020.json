@@ -1,0 +1,27 @@
+{
+  "family": "Extended",
+  "preset": "Base",
+  "allele_label": "VeryRare",
+  "allele_freqs": {
+    "GeneA": 0.01,
+    "GeneB": 0.01
+  },
+  "fixed_cost": 0.01,
+  "variable_cost": 0.02,
+  "V_root": -0.03436266488115368,
+  "V_stop_root": -0.037040745600000036,
+  "headroom": 0.002678080718846357,
+  "L_myopic": -0.04992470068123252,
+  "ratio2_myopic": 5.810891244078159,
+  "abs_regret_myopic": 0.015562035800078838,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "test",
+    "Father"
+  ],
+  "root_match": false,
+  "n_states": 107728
+}

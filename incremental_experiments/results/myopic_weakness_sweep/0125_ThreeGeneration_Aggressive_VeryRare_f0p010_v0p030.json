@@ -1,0 +1,27 @@
+{
+  "family": "ThreeGeneration",
+  "preset": "Aggressive",
+  "allele_label": "VeryRare",
+  "allele_freqs": {
+    "GeneA": 0.01,
+    "GeneB": 0.01
+  },
+  "fixed_cost": 0.01,
+  "variable_cost": 0.03,
+  "V_root": -0.03516995378833278,
+  "V_stop_root": -0.04315598972999999,
+  "headroom": 0.007986035941667212,
+  "L_myopic": -0.05421862949449656,
+  "ratio2_myopic": 2.3852479309261745,
+  "abs_regret_myopic": 0.01904867570616378,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "test",
+    "Child"
+  ],
+  "root_match": false,
+  "n_states": 20816
+}

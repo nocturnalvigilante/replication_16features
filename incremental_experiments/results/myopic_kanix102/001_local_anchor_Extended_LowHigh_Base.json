@@ -1,0 +1,31 @@
+{
+  "row_id": "local_anchor_Extended_LowHigh_Base",
+  "suite": "local40",
+  "row_index": 1,
+  "family": "Extended",
+  "preset": "Base",
+  "allele_freqs": {
+    "GeneA": 0.02,
+    "GeneB": 0.15
+  },
+  "a_scale": 1.0,
+  "b_scale": 1.0,
+  "delta_shift": 0.0,
+  "fixed_cost": 0.01,
+  "variable_cost": 0.02,
+  "V_root": -0.13064950160463917,
+  "V_stop_root": -0.21640096728,
+  "L_myopic": -0.1429071662809618,
+  "ratio2_myopic": 0.1429440835766923,
+  "abs_regret_myopic": 0.012257664676322638,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "test",
+    "Child"
+  ],
+  "root_match": false,
+  "n_states": 107728
+}

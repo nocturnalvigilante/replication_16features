@@ -1,0 +1,31 @@
+{
+  "row_id": "local_allele_ThreeGeneration_LowHigh_Aggressive_02",
+  "suite": "local40",
+  "row_index": 18,
+  "family": "ThreeGeneration",
+  "preset": "Base",
+  "allele_freqs": {
+    "GeneA": 0.03,
+    "GeneB": 0.15
+  },
+  "a_scale": 1.5,
+  "b_scale": 1.5,
+  "delta_shift": 0.1,
+  "fixed_cost": 0.01,
+  "variable_cost": 0.02,
+  "V_root": -0.11797114825129652,
+  "V_stop_root": -0.27011462877000003,
+  "L_myopic": -0.12476099501237353,
+  "ratio2_myopic": 0.04462791792279466,
+  "abs_regret_myopic": 0.006789846761077009,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "test",
+    "Grandfather"
+  ],
+  "root_match": true,
+  "n_states": 20816
+}
