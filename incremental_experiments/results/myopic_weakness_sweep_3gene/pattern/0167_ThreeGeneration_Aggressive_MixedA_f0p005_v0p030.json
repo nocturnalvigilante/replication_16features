@@ -1,0 +1,55 @@
+{
+  "family": "ThreeGeneration",
+  "preset": "Aggressive",
+  "allele_label": "MixedA",
+  "allele_freqs": {
+    "GeneA": 0.02,
+    "GeneB": 0.1,
+    "GeneC": 0.1
+  },
+  "fixed_cost": 0.005,
+  "variable_cost": 0.03,
+  "genec": "pattern",
+  "genes": [
+    "GeneA",
+    "GeneB",
+    "GeneC"
+  ],
+  "coefs_used": {
+    "a_gene": {
+      "GeneA": -0.12,
+      "GeneB": -0.09,
+      "GeneC": -0.0675
+    },
+    "b_gene": {
+      "GeneA": -0.06,
+      "GeneB": -0.045,
+      "GeneC": -0.03375
+    },
+    "delta_gene": {
+      "GeneA": 0.7,
+      "GeneB": 0.8,
+      "GeneC": 0.9
+    }
+  },
+  "V_root": -0.1122636168628284,
+  "V_stop_root": -0.30908174471999994,
+  "headroom": 0.19681812785717154,
+  "L_myopic": -0.11623426765487863,
+  "ratio2_myopic": 0.020174212788629284,
+  "abs_regret_myopic": 0.003970650792050223,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "test",
+    "Grandfather"
+  ],
+  "root_match": true,
+  "n_states": 1054528,
+  "sec_belief": 90.84870767593384,
+  "sec_dp": 11.130241870880127,
+  "sec_myopic": 4.685204744338989,
+  "peak_rss_gb": 17.447708129882812
+}

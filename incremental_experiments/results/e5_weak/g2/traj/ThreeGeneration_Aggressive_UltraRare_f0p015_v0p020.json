@@ -1,0 +1,30 @@
+{
+  "family": "ThreeGeneration",
+  "preset": "Aggressive",
+  "allele_label": "UltraRare",
+  "fixed_cost": 0.015,
+  "variable_cost": 0.02,
+  "n_steps": 2,
+  "steps": [
+    {
+      "dp": "stop",
+      "myopic": "test Grandfather",
+      "gnn_seed0": "test Child",
+      "gnn_seed1": "test Child",
+      "gnn_seed2": "test Child"
+    },
+    {
+      "dp": "stop",
+      "myopic": "stop",
+      "gnn_seed0": "test Child",
+      "gnn_seed1": "test Child",
+      "gnn_seed2": "test Child"
+    }
+  ],
+  "match_myopic": 1,
+  "match_gnn": {
+    "gnn_seed0": 0,
+    "gnn_seed1": 0,
+    "gnn_seed2": 0
+  }
+}

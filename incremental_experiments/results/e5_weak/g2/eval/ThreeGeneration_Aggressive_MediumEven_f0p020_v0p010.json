@@ -1,0 +1,59 @@
+{
+  "family": "ThreeGeneration",
+  "preset": "Aggressive",
+  "allele_label": "MediumEven",
+  "allele_freqs": {
+    "GeneA": 0.08,
+    "GeneB": 0.08
+  },
+  "fixed_cost": 0.02,
+  "variable_cost": 0.01,
+  "V_root": -0.14878707070378835,
+  "V_stop_root": -0.2955836620799997,
+  "L_myopic": -0.16562502611663638,
+  "abs_regret_myopic": 0.01683795541284802,
+  "root_action_dp": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "evaluator_check_diff": 0.0,
+  "models": {
+    "gnn_seed0": {
+      "L": -0.17069158254122851,
+      "abs_regret": 0.02190451183744016,
+      "ratio2": 0.14921676063515074,
+      "root_action": [
+        "test",
+        "Father"
+      ],
+      "root_match_dp": false,
+      "states_visited": 2066
+    },
+    "gnn_seed1": {
+      "L": -0.1592388795000045,
+      "abs_regret": 0.010451808796216155,
+      "ratio2": 0.07119926081546529,
+      "root_action": [
+        "test",
+        "Mother"
+      ],
+      "root_match_dp": false,
+      "states_visited": 2817
+    },
+    "gnn_seed2": {
+      "L": -0.16329797623101752,
+      "abs_regret": 0.014510905527229168,
+      "ratio2": 0.09885042555273314,
+      "root_action": [
+        "test",
+        "Grandfather"
+      ],
+      "root_match_dp": true,
+      "states_visited": 2922
+    }
+  }
+}

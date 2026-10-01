@@ -1,0 +1,392 @@
+[
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Child",
+      -0.2529606595838373
+    ],
+    "exact_root_value": -0.2529606595838373,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.03,
+    "hit": false,
+    "myopic_minus_stop": 0.027355809805854225,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.0582148125
+    ],
+    "myopic_root_value": -0.29432219019414585,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.03
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Child",
+      -0.24324931094944235
+    ],
+    "exact_root_value": -0.24324931094944235,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.03,
+    "hit": false,
+    "myopic_minus_stop": 0.04590900065722464,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.053434875
+    ],
+    "myopic_root_value": -0.27576899934277543,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.02
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Child",
+      -0.23191021233140247
+    ],
+    "exact_root_value": -0.23191021233140247,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.03,
+    "hit": false,
+    "myopic_minus_stop": 0.06435193407892364,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.048654937499999995
+    ],
+    "myopic_root_value": -0.25732606592107643,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.01
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Father",
+      -0.23200064678500001
+    ],
+    "exact_root_value": -0.23200064678500001,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.02,
+    "hit": false,
+    "myopic_minus_stop": 0.06965545314558236,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.0482148125
+    ],
+    "myopic_root_value": -0.2520225468544177,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.03
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Father",
+      -0.21977036087734378
+    ],
+    "exact_root_value": -0.21977036087734378,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.02,
+    "hit": false,
+    "myopic_minus_stop": 0.08863087222372068,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.043434875000000005
+    ],
+    "myopic_root_value": -0.2330471277762794,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.02
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Child",
+      -0.2196418224658116
+    ],
+    "exact_root_value": -0.2196418224658116,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.015,
+    "hit": false,
+    "myopic_minus_stop": 0.09110694186273263,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.043214812500000005
+    ],
+    "myopic_root_value": -0.23057105813726744,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.03
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Grandfather",
+      -0.20283570287182684
+    ],
+    "exact_root_value": -0.20283570287182684,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.02,
+    "hit": false,
+    "myopic_minus_stop": 0.10803312589996561,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.0386549375
+    ],
+    "myopic_root_value": -0.21364487410003447,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.01
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Grandfather",
+      -0.20304991769321984
+    ],
+    "exact_root_value": -0.20304991769321984,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.015,
+    "hit": false,
+    "myopic_minus_stop": 0.1104059315730748,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.03843487500000001
+    ],
+    "myopic_root_value": -0.21127206842692528,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.02
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Child",
+      -0.2008736217480886
+    ],
+    "exact_root_value": -0.2008736217480886,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.01,
+    "hit": false,
+    "myopic_minus_stop": 0.11324939657615032,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.0382148125
+    ],
+    "myopic_root_value": -0.20842860342384975,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.03
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Grandfather",
+      -0.18282095676802837
+    ],
+    "exact_root_value": -0.18282095676802837,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.015,
+    "hit": false,
+    "myopic_minus_stop": 0.13096509466784867,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.0336549375
+    ],
+    "myopic_root_value": -0.1907129053321514,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.01
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Grandfather",
+      -0.1819393993738608
+    ],
+    "exact_root_value": -0.1819393993738608,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.01,
+    "hit": false,
+    "myopic_minus_stop": 0.13375409241859826,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.033434875
+    ],
+    "myopic_root_value": -0.18792390758140182,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.02
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Grandfather",
+      -0.17939189311962125
+    ],
+    "exact_root_value": -0.17939189311962125,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.005,
+    "hit": false,
+    "myopic_minus_stop": 0.13643540505189358,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.0332148125
+    ],
+    "myopic_root_value": -0.1852425949481065,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.03
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Grandfather",
+      -0.16165994570922249
+    ],
+    "exact_root_value": -0.16165994570922249,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.01,
+    "hit": false,
+    "myopic_minus_stop": 0.15456479548512553,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.0286549375
+    ],
+    "myopic_root_value": -0.16711320451487455,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.01
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Grandfather",
+      -0.16050879787101263
+    ],
+    "exact_root_value": -0.16050879787101263,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.005,
+    "hit": false,
+    "myopic_minus_stop": 0.15727576304091573,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.028434875000000005
+    ],
+    "myopic_root_value": -0.16440223695908435,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.02
+  },
+  {
+    "a_scale": 1.0,
+    "af_a": 0.15,
+    "af_b": 0.15,
+    "b_scale": 1.0,
+    "delta_shift": 0.0,
+    "exact_root_action": [
+      "test",
+      "Grandfather",
+      -0.14043540927191975
+    ],
+    "exact_root_value": -0.14043540927191975,
+    "family": "ThreeGeneration",
+    "fixed_cost": 0.005,
+    "hit": false,
+    "myopic_minus_stop": 0.17816449630240233,
+    "myopic_root_action": [
+      "test",
+      "Grandfather",
+      -0.023654937500000004
+    ],
+    "myopic_root_value": -0.14351350369759774,
+    "preset": "Base",
+    "stop_value": -0.3216780000000001,
+    "variable_cost": 0.01
+  }
+]

@@ -10,6 +10,124 @@ To check status yourself: `squeue -u $(whoami) | grep <jobname>` or
 
 ## Currently running / pending
 
+### 2026-09-10: E5 on Extended (OOD), 2-gene + 3-gene
+
+The 2-gene vs 3-gene comparison is now E5 only (two-way MP, CE+MSE, per-state
+batching, mean pooling, 3 rounds, existing checkpoints -- no retrain). E5 had
+never been run on Extended; E4/E6/E7 had. Added `--variant e5` to
+`log_extended_fourway.py` (GNN = `e5_gnn_rounds3{,_2gene}`, MLP = E2 ce, as
+E4/E7). Smoke on 2-gene seed0 LowHigh_Base: ran clean in ~9 min, V* and myopic
+ratio2 bit-identical to the committed E4 Extended run (0.142944), so DP/myopic
+are untouched; smoke output deleted.
+
+| Job ID | Name | Purpose | Status |
+|---|---|---|---|
+| 2275616 | ext_e5 | `submit_extended_fourway_e5.sh`: tasks 0-2 = 3-gene seeds 0-2, 3-5 = 2-gene seeds 0-2; outputs `results/extended/{2,3}gene/seed*/extended_fourway_e5.json` | 3-gene: **COMPLETED** 09-11 02:53, 3/3 seeds, 12/12 configs each; requeued at the wall and resumed from partials as designed. Tasks 3-5 (2-gene) CANCELLED while still pending -- stuck on the 256G request. |
+| 2276134 | ext_e5_2g | Same script, `--array=3-5 --mem=8G --time=00:45:00` -- the 2-gene seeds only. 2-gene Extended peaked at 2.5 GB RSS and 3.5-4.7 min per seed in 2206261. | COMPLETED 18:08, 3/3 seeds, 12/12 configs each. |
+
+2-gene E5 Extended (3-seed avg, 12 configs): GNN ratio2 0.102 (0.073 without
+LowLow_Base), root 3.7/12, whole-traj 0.74. Myopic 0.221 (0.124 w/o LowLow_Base),
+MLP 0.216 -- MLP and myopic identical to the E4 Extended run, as they must be.
+vs E4 2-gene Extended: ratio2 0.113 -> 0.102, w/o LowLow_Base 0.072 -> 0.073,
+root 6.0 -> 3.7/12, whole-traj 0.72 -> 0.74.
+
+3-gene E5 Extended (3-seed avg, 12 configs): GNN ratio2 0.091 (0.080 w/o
+LowLow_Base), root 0.7/12 (seeds 1/0/1), whole-traj 46.7/81 = 0.58. Myopic
+ratio2 0.115 (0.068 w/o LowLow_Base), root 8/12, whole-traj 32/81 = 0.40 --
+myopic ratio2 identical to the E4 Extended run.
+
+Share of stake lost = sum_c(ratio2_c * stake_c) / sum_c(stake_c), stake =
+V* - V_stop (Extended: from the per-config log line; ThreeGeneration:
+`myopic_TRUE_summary.json`). Not an average of ratio2, so the tiny LowLow_Base
+denominator can't dominate:
+
+| E5 | ThreeGeneration 2g | 3g | Extended 2g | 3g |
+|---|---|---|---|---|
+| mean stake | 0.109 | 0.169 | 0.149 | 0.226 |
+| GNN share lost | 6.2% | 6.1% | 5.9% | 6.0% |
+| myopic share lost | 8.0% | 4.4% | 9.4% | 5.3% |
+
+GNN is flat from 2 to 3 genes on both families; myopic roughly halves its
+share lost. Both E5 checkpoint sets are current (3-gene retrained 08-22 on the
+corrected allele frequencies; 2-gene 07-25, never affected by that bug).
+
+### 2026-09-10: E5 GNN trained on the myopic-weakness grid
+
+`incremental_experiments/e5_weak.py`, `submit_e5_weak.sh`. E5 GNN-Q (n_rounds=3,
+CE+MSE, state-grouped batching, 500 epochs, 3 seeds), GNN only (no MLP, user
+decision). TRAIN Trio+Nuclear on the sweep's full grid (7 alleles x 5 fixed x 3
+variable x 2 presets = 420 configs per gene count); TEST the sweep's 420
+ThreeGeneration+Extended configs per gene count, scored against its V* and
+Kanix's myopic L. Config/belief/DP/stop/myopic all Kanix's; Q* targets guarded
+against his V* at every state; evaluator guarded per config (q_rollout on his
+myopic policy must equal his myopic L). 3-gene GeneC = pattern (matches the sweep),
+NOT the old data_gen placeholders. Smoke test (scratch, 2-gene + 3-gene data/train,
+2-gene eval): guards 7e-9, evaluator diff 0.0. OMP_NUM_THREADS=1 (4x faster than 4 threads).
+
+| Job ID | Stage | Purpose | Status |
+|---|---|---|---|
+| 2277136 | data 2 (0-1) | Trio / Nuclear train tensors, 2-gene | **COMPLETE**, 420/420, Q*-vs-V* guard 1.5e-8. |
+| 2277137 | data 3 (0-1) | Trio / Nuclear train tensors, 3-gene | **COMPLETE**, 420/420, Q*-vs-V* guard 1.5e-8. |
+| 2277138 | train 2 (0-2) | GNN 2-gene seeds 0-2, after 2277136 | **COMPLETE, 3/3** (CPU, 9.4 s/epoch, ~78 min). |
+| 2277139 | train 3 (0-2) | GNN 3-gene seeds 0-2 on CPU, 106 s/epoch (~15h) | **CANCELLED at epoch 64/62/62** to move to GPU; checkpoints verified loadable. |
+| 2277140 | eval 2 (0-27) | 2-gene test, after 2277138 | **COMPLETE**, 420/420, evaluator check 0.0. |
+| 2277141 / 2277142 | eval 3 | dependents of 2277139 | CANCELLED (resubmitted as 2277579 / 2277580). |
+| 2277578 | train 3 GPU (0-2) | Same 3-gene training resumed from the CPU checkpoints, `--device cuda`, 1 GPU each (L40S, g002) | **COMPLETE** 09-11 ~05:25, 3/3 at 500 epochs; USR1 self-requeue at 03:06 resumed from atomic checkpoints (epochs 339/348/344). |
+| 2277579 / 2277580 | eval 3 | dependency-chained 3-gene evals | CANCELLED -- the monitor submits 3-gene eval itself once all 3 seeds exist (output-driven, no dependencies). |
+| 2277599 (+ successors) | e5w_monitor | Watchdog, `submit_e5_weak_monitor.sh` -> `incremental_experiments/e5_weak_monitor.py` every 5 min. Done-ness from disk (`results/e5_weak/manifest.json`); resubmits timed-out/failed/OOM'd units (OOM -> 2x memory; train GPU -> CPU after 2 GPU failures; max 4 attempts); never resubmits a unit whose log has an AssertionError (guard failure -> alert); deletes unparseable eval JSONs; releases held jobs; summarizes each gene count when its 420 files exist; writes `DONE`. Keeps one successor queued (afterany). Status: `results/e5_weak/STATUS.txt`, events: `monitor.log`. | **DONE** 09-11 10:38: submitted the 28 3-gene eval units (2278838-2278865, all COMPLETED first try, longest 2h09m); 0 resubmits, 0 alerts; wrote FINAL_SUMMARY_g2/g3.txt and DONE; chain stopped. |
+
+3-gene eval tests with stand-in checkpoints (epoch ~77), outputs in `results/e5_weak_evaltest{,2}/` (tests only, not results):
+2277651/2277652 per-state Q-hat -- ThreeGeneration 160 s/config 19.6 GB; Extended 21 min/config, 198 GB of 210 GB (too slow for a 4h wall, too close to OOM).
+2277823/2277824 batched Q-hat (`--qmode array`, now the default; guard: batched vs per-state Q-hat on root + 200 states < 1e-4) --
+ThreeGeneration 30 s/config 20 GB; Extended 5-9 min/config, 201 GB (monitor now asks 300 GB, 8 CPUs). Batched vs per-state:
+Q-hat within 1.7e-6; L identical on 2-gene (5/5, diff 0.0); on 3-gene 3 of 4 L within 1e-4, one Extended seed flips a near-tie
+root choice (L diff 1.5e-3) -- float noise between two equally valid evaluations of the same model, far below the seed spread.
+2-gene eval (2277140) was per-state; 3-gene eval uses batched.
+
+RESULT (`results/e5_weak/FINAL_SUMMARY_g{2,3}.txt`; artifact "Where E5 Beats Myopic" https://claude.ai/code/artifact/d8676e37-8023-4f67-8516-7200211fd527), mean regret myopic / GNN (3-seed mean):
+2-gene all 420: 0.0184 / 0.0217; testing pays (f>=0.02, V*-stop>=0.03, n=83): 0.0306 / 0.0254 (GNN better 62/83; ThreeGen 0.0245/0.0213, Extended 0.0360/0.0289); DP stops at root (n=80): 0.0143 / 0.0379.
+3-gene all 420: 0.0175 / 0.0208; testing pays (n=100): 0.0262 / 0.0260 (41/100; ThreeGen 0.0211/0.0228, Extended 0.0310/0.0291); DP stops at root (n=68): 0.0183 / 0.0324.
+GNN almost never stops at the root; seeds vary widely (2-gene 0.0226/0.0164/0.0262, 3-gene 0.0277/0.0161/0.0185).
+
+Whole-trajectory stage (09-11, `--stage traj`, same definition as log_e5_fourway.py: walk myopic's most-likely path, compare DP / myopic / GNN picks per state; DP re-solved per config, guarded: V* and root action == sweep). Submitted by the watchdog (2280145) as 56 units e5w_traj{2,3}_* (2280147-2280202). 2-gene 420/420 in minutes; 3-gene 405/420 by 13:46. Unit traj3_25 (2280200_25) crawled on overloaded p008 (load 221/256; no belief after 2h) -> duplicate 2280500_25 on g002 (--exclude=p008); identical atomic outputs, cancel the loser. -> 2280500_25 COMPLETED in 60 min on g002; 2280200_25 cancelled; ALL DONE 09-11 14:51, 0 alerts, 840/840 trajectories.
+Whole trajectory = DP (myopic / E5 3-seed mean): 2-gene all 38% / 45%, testing pays 31% / 50%; 3-gene all 41% / 42%, testing pays 37% / 39% (ThreeGen 42/43%, Extended 33/36%); DP tests nobody 2-gene 48% / 3%, 3-gene 42% / 18%. Artifact v3 updated.
+
+Resume/safety in `e5_weak.py` (09-10 23:14): checkpoint written to a temp file then renamed, previous epoch kept as `checkpoint_prev.pt`, resume falls back to it; `model.pt` and every eval JSON written atomically. GPU training: 51 s/epoch vs 106 s on CPU.
+
+### 2026-09-10: 3-gene myopic weakness sweep (Kanix's code + GeneC)
+
+`incremental_experiments/myopic_weakness_sweep_3gene.py`, driven by
+`submit_myopic_weakness_3gene.sh <variant>`. DP/myopic/belief/config are all
+Kanix's, via `scripts/search_multigene_myopic_vs_stop_3gene.py` = his script +
+GeneC in `GENES`/`COEF_PRESETS`, nothing else. GeneC continues his GeneA->GeneB
+step (a,b x0.75, delta +0.10). ThreeGeneration only. No training.
+
+| Job ID | Variant | Purpose | Status |
+|---|---|---|---|
+| 2273910 | sanity (0-4) | GeneC freq ~0 on 2-gene rows 45/74/110/205 (+45 at exactly 0.0) must reproduce 2-gene V*, V_stop, myopic, root actions; also the time/memory pilot | **COMPLETE, 5/5 PASS.** freq 1e-9: max diff 1.4e-9, all root actions identical. freq 0.0: bit-identical (diff 0.0) -- his belief code prunes the zero-prob GeneC states, 20,816 states = the 2-gene count. Pilot: ~2.5 min, 17.7 GB per config at 1,054,528 states. |
+| 2273937 | pattern (0-209) | Main grid, 32G / 1h per task | **COMPLETE, 210/210, 0 errors.** |
+| 2273938 | cloneA (0-83) | GeneC = copy of GeneA, fixed_cost >= 0.02 | **COMPLETE, 84/84, 0 errors.** |
+| 2273939 | cloneB (0-83) | GeneC = copy of GeneB, fixed_cost >= 0.02 | **COMPLETE, 84/84, 0 errors.** |
+
+| 2274876 | sanity Extended (0-3) | GeneC freq exactly 0.0 on 2-gene Extended rows 255/284/320/415 must be bit-identical to 2-gene | **COMPLETE, 4/4 PASS, all diffs 0.0**, root actions identical. |
+| 2274877 | pattern Extended (0-209) | Step 9: full grid on Extended (9,190,992 states), 256G / 4h per task. Outputs `pattern_Extended/` | **53 COMPLETED; 157 CANCELLED while still PENDING** (never started) -- each task rebuilt the same ~15-min belief; replaced by 2275475. |
+| 2275475 | pattern Extended group (0-13) | Same rows, one task per (preset, allele) group = one belief per 15 rows; 210G / 1:30, threedle-own/threedle-contrib/general/peanut-cpu | **COMPLETE, 14/14, 210/210 rows, 0 errors.** Tasks 10/11 requeued at the wall and resumed via skip guard. Shared-belief reuse checks vs rows 14/29/44/46/162/177: bit-IDENTICAL. |
+
+| 2275003 | lp_xcheck | Kanix's UNMODIFIED script with PuLP on PYTHONPATH (isolated dir `/net/projects/ranalab/rajhansini/pylibs_pulp`), so exact DP runs his Gurobi LP instead of the silent primal fallback; 2-gene rows 45/74/205/284/320 | **COMPLETE.** LP V* is HIGHER than backward induction on 5/5 (+4e-4 to +1.1e-2); stop + myopic identical (0.0); DP root action differs on row 74. Cause: multigene LP forces Phi = sum of per-gene Phi (`per_gene_phi_active = bool(gene_list)`), a restricted min-LP -> upper bound, not exact. Backward induction is the true optimum; all sweeps used it. `incremental_experiments/lp_crosscheck_compare.py`. |
+
+ThreeGeneration result (`--report`): same weak region as 2-gene. Cost is the main axis -- 3-gene
+mean abs_regret 0.0053 -> 0.0265 as fixed_cost 0.005 -> 0.030, root wrong 12/42 ->
+31/42. Worst: rare alleles at high cost (LowLow f=0.03 0.0439, 6/6 root wrong).
+Robust to GeneC: at fixed_cost >= 0.02, abs_regret 0.0219 / 0.0254 / 0.0220 for
+pattern / cloneA / cloneB, root wrong 56 / 60 / 52 of 84.
+
+| 2276374 / 2276375 / 2276376 | main_recheck (0-27 / 28-29 / 30-39) | Recheck through Kanix's own `main()` CLI, not our drivers (`submit_main_recheck.sh`). 2-gene: his UNMODIFIED script, all 420 configs. 3-gene: his main() has no GeneC flag, get_config defaults GeneC to 0.1 = our MixedA GeneC, so the 60 MixedA configs run through it untouched. pulp not importable -> primal fallback; DP root action from his `extract_exact_policy`. | **COMPLETE, 40/40.** `incremental_experiments/main_recheck_compare.py`: 2-gene 420/420 and 3-gene 60/60 with max diff 0 on V*, stop, myopic; DP and myopic root actions identical 480/480. |
+
+Extended result (`--report --family Extended`): same weak region. 3-gene mean
+abs_regret 0.0081 -> 0.0358 as fixed_cost 0.005 -> 0.030 (2-gene same cells
+0.0082 -> 0.0384), root wrong 14/42 -> 34/42. Worst: Aggressive LowLow f=0.03
+(0.0615-0.0643, root wrong). 9,190,992 states, ~19 min/config un-shared, 178.6 GB peak.
+
 Full re-derivation of every number in the E0-E9 PI briefing artifact, so that
 no figure on that page predates the 3-gene allele-frequency fix (2026-08-15/16)
 or the E0-E9 retrain (2026-08-22).

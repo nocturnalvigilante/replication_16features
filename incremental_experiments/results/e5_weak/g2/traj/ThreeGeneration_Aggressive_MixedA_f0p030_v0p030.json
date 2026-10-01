@@ -1,0 +1,51 @@
+{
+  "family": "ThreeGeneration",
+  "preset": "Aggressive",
+  "allele_label": "MixedA",
+  "fixed_cost": 0.03,
+  "variable_cost": 0.03,
+  "n_steps": 5,
+  "steps": [
+    {
+      "dp": "test Child",
+      "myopic": "test Grandfather",
+      "gnn_seed0": "test Child",
+      "gnn_seed1": "test Child",
+      "gnn_seed2": "test Child"
+    },
+    {
+      "dp": "test Child",
+      "myopic": "test Father",
+      "gnn_seed0": "test Father",
+      "gnn_seed1": "test Child",
+      "gnn_seed2": "test Child"
+    },
+    {
+      "dp": "test Child",
+      "myopic": "test Grandmother",
+      "gnn_seed0": "test Mother",
+      "gnn_seed1": "test Mother",
+      "gnn_seed2": "test Grandmother"
+    },
+    {
+      "dp": "test Child",
+      "myopic": "test Child",
+      "gnn_seed0": "test Child",
+      "gnn_seed1": "test Mother",
+      "gnn_seed2": "test Child"
+    },
+    {
+      "dp": "stop",
+      "myopic": "stop",
+      "gnn_seed0": "stop",
+      "gnn_seed1": "stop",
+      "gnn_seed2": "stop"
+    }
+  ],
+  "match_myopic": 2,
+  "match_gnn": {
+    "gnn_seed0": 3,
+    "gnn_seed1": 3,
+    "gnn_seed2": 4
+  }
+}

@@ -1,0 +1,1003 @@
+E5-weak status  2026-09-10 23:18:03
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 64  g3 s1: 62  g3 s2: 62
+eval configs scored:   g2 387/420  g3 0/420
+jobs: 10 running, 0 pending
+alerts: none
+E5-weak status  2026-09-10 23:23:03
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 64  g3 s1: 62  g3 s2: 62
+eval configs scored:   g2 398/420  g3 0/420
+jobs: 10 running, 0 pending
+alerts: none
+E5-weak status  2026-09-10 23:28:03
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 80  g3 s1: 80  g3 s2: 80
+eval configs scored:   g2 409/420  g3 0/420
+jobs: 9 running, 0 pending
+alerts: none
+[2026-09-10 23:33:08] g2: all 420 test configs scored -> FINAL_SUMMARY_g2.txt
+E5-weak status  2026-09-10 23:33:08
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 80  g3 s1: 80  g3 s2: 80
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-10 23:38:08
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 80  g3 s1: 80  g3 s2: 80
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-10 23:43:08
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 100  g3 s1: 100  g3 s2: 100
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-10 23:48:09
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 100  g3 s1: 100  g3 s2: 100
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-10 23:53:09
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 100  g3 s1: 100  g3 s2: 100
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-10 23:58:09
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 100  g3 s1: 100  g3 s2: 100
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 00:03:09
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 120  g3 s1: 120  g3 s2: 120
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 00:08:09
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 120  g3 s1: 120  g3 s2: 120
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 00:13:10
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 120  g3 s1: 120  g3 s2: 120
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 00:18:10
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 140  g3 s1: 140  g3 s2: 140
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 00:23:10
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 140  g3 s1: 140  g3 s2: 140
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 00:28:10
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 140  g3 s1: 140  g3 s2: 140
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 00:33:10
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 160  g3 s1: 160  g3 s2: 160
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 00:38:10
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 160  g3 s1: 160  g3 s2: 160
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 00:43:11
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 160  g3 s1: 160  g3 s2: 160
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 00:48:11
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 160  g3 s1: 180  g3 s2: 160
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 00:53:11
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 180  g3 s1: 180  g3 s2: 180
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 00:58:11
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 180  g3 s1: 180  g3 s2: 180
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 01:03:11
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 180  g3 s1: 180  g3 s2: 180
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 01:08:11
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 200  g3 s1: 200  g3 s2: 200
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 01:13:12
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 200  g3 s1: 200  g3 s2: 200
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 01:18:12
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 200  g3 s1: 200  g3 s2: 200
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 01:23:12
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 200  g3 s1: 220  g3 s2: 220
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 01:28:12
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 220  g3 s1: 220  g3 s2: 220
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 01:33:12
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 220  g3 s1: 220  g3 s2: 220
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 01:38:13
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 220  g3 s1: 240  g3 s2: 220
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 01:43:13
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 240  g3 s1: 240  g3 s2: 240
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 01:48:13
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 240  g3 s1: 240  g3 s2: 240
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 01:53:13
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 240  g3 s1: 240  g3 s2: 240
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 01:58:13
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 260  g3 s1: 260  g3 s2: 260
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 02:03:14
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 260  g3 s1: 260  g3 s2: 260
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 02:08:14
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 260  g3 s1: 260  g3 s2: 260
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 02:13:14
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 260  g3 s1: 280  g3 s2: 280
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 02:18:14
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 280  g3 s1: 280  g3 s2: 280
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 02:23:14
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 280  g3 s1: 280  g3 s2: 280
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 02:28:14
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 280  g3 s1: 300  g3 s2: 280
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 02:33:15
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 300  g3 s1: 300  g3 s2: 300
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 02:38:15
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 300  g3 s1: 300  g3 s2: 300
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 02:43:15
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 300  g3 s1: 320  g3 s2: 300
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 02:48:15
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 300  g3 s1: 320  g3 s2: 320
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 02:53:15
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 320  g3 s1: 320  g3 s2: 320
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 02:58:15
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 320  g3 s1: 320  g3 s2: 320
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 03:03:15
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 320  g3 s1: 340  g3 s2: 340
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 03:08:17
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 339  g3 s1: 348  g3 s2: 344
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 03:13:17
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 340  g3 s1: 348  g3 s2: 344
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 03:18:17
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 340  g3 s1: 360  g3 s2: 344
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 03:23:17
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 340  g3 s1: 360  g3 s2: 360
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 03:28:18
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 360  g3 s1: 360  g3 s2: 360
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 03:33:18
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 360  g3 s1: 360  g3 s2: 360
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 03:38:18
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 360  g3 s1: 380  g3 s2: 360
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 03:43:18
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 380  g3 s1: 380  g3 s2: 380
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 03:48:18
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 380  g3 s1: 380  g3 s2: 380
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 03:53:18
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 380  g3 s1: 400  g3 s2: 380
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 03:58:18
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 380  g3 s1: 400  g3 s2: 400
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 04:03:19
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 400  g3 s1: 400  g3 s2: 400
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 04:08:19
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 400  g3 s1: 400  g3 s2: 400
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 04:13:19
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 400  g3 s1: 420  g3 s2: 420
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 04:18:19
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 420  g3 s1: 420  g3 s2: 420
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 04:23:19
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 420  g3 s1: 420  g3 s2: 420
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 04:28:19
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 420  g3 s1: 440  g3 s2: 420
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 04:33:20
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 420  g3 s1: 440  g3 s2: 440
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 04:38:20
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 440  g3 s1: 440  g3 s2: 440
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 04:43:20
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 440  g3 s1: 460  g3 s2: 440
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 04:48:20
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 440  g3 s1: 460  g3 s2: 460
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 04:53:20
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 460  g3 s1: 460  g3 s2: 460
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 04:58:20
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 460  g3 s1: 480  g3 s2: 460
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 05:03:21
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 460  g3 s1: 480  g3 s2: 460
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 05:08:21
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 460  g3 s1: 480  g3 s2: 480
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 05:13:21
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 480  g3 s1: 480  g3 s2: 480
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 05:18:21
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 480  g3 s1: done  g3 s2: 480
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 2 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 05:23:22
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: 480  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 1 running, 0 pending
+alerts: none
+[2026-09-11 05:28:22] submitted eval g3 #0 -> 2278838_0  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #1 -> 2278839_1  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #2 -> 2278840_2  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #3 -> 2278841_3  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #4 -> 2278842_4  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #5 -> 2278843_5  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #6 -> 2278844_6  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #7 -> 2278845_7  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #8 -> 2278846_8  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #9 -> 2278847_9  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #10 -> 2278848_10  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #11 -> 2278849_11  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #12 -> 2278850_12  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #13 -> 2278851_13  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #14 -> 2278852_14  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #15 -> 2278853_15  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #16 -> 2278854_16  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #17 -> 2278855_17  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #18 -> 2278856_18  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #19 -> 2278857_19  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #20 -> 2278858_20  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #21 -> 2278859_21  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #22 -> 2278860_22  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #23 -> 2278861_23  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #24 -> 2278862_24  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #25 -> 2278863_25  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #26 -> 2278864_26  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #27 -> 2278865_27  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+E5-weak status  2026-09-11 05:28:23
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 0/420
+jobs: 0 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 05:33:23
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 66/420
+jobs: 26 running, 2 pending
+alerts: none
+E5-weak status  2026-09-11 05:38:23
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 192/420
+jobs: 18 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 05:43:23
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 195/420
+jobs: 15 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 05:48:23
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 195/420
+jobs: 15 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 05:53:24
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 200/420
+jobs: 15 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 05:58:24
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 208/420
+jobs: 15 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 06:03:24
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 220/420
+jobs: 15 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 06:08:24
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 229/420
+jobs: 15 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 06:13:25
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 247/420
+jobs: 15 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 06:18:25
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 260/420
+jobs: 15 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 06:23:25
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 274/420
+jobs: 15 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 06:28:25
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 289/420
+jobs: 15 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 06:33:26
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 304/420
+jobs: 15 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 06:38:26
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 318/420
+jobs: 15 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 06:43:26
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 333/420
+jobs: 14 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 06:48:26
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 347/420
+jobs: 13 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 06:53:26
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 357/420
+jobs: 10 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 06:58:36
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 365/420
+jobs: 9 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 07:03:36
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 373/420
+jobs: 8 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 07:08:37
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 380/420
+jobs: 8 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 07:13:37
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 385/420
+jobs: 8 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 07:18:37
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 391/420
+jobs: 7 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 07:23:37
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 397/420
+jobs: 7 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 07:28:38
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 399/420
+jobs: 4 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 07:33:38
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 402/420
+jobs: 4 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 07:38:38
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 404/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 07:43:39
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 405/420
+jobs: 2 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 07:48:39
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 07:53:39
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 07:58:39
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 08:03:40
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 08:08:40
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 08:13:40
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 08:18:40
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 406/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 08:23:40
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 406/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 08:28:41
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 406/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 08:33:41
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 406/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 08:38:41
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 406/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 08:43:42
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 407/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 08:48:42
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 407/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 08:53:42
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 407/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 08:58:42
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 407/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 09:03:42
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 407/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 09:08:43
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 407/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 09:13:43
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 408/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 09:18:43
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 408/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 09:23:43
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 408/420
+jobs: 0 running, 1 pending
+alerts: none
+E5-weak status  2026-09-11 09:28:44
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 408/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 09:33:44
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 408/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 09:38:44
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 408/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 09:43:44
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 408/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 09:48:45
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 408/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 09:53:45
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 409/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 09:58:46
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 410/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 10:03:46
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 411/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 10:08:46
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 412/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 10:13:46
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 413/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 10:18:47
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 415/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 10:23:47
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 416/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 10:28:47
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 417/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 10:33:47
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 419/420
+jobs: 1 running, 0 pending
+alerts: none
+[2026-09-11 10:38:53] g3: all 420 test configs scored -> FINAL_SUMMARY_g3.txt
+[2026-09-11 10:38:53] ALL DONE
+E5-weak status  2026-09-11 10:38:53
+ALL DONE
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+jobs: 1 running, 0 pending
+alerts: none
+[2026-09-11 11:46:10] submitted traj g2 #0 -> 2280147_0  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:10] submitted traj g2 #1 -> 2280148_1  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:10] submitted traj g2 #2 -> 2280149_2  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:10] submitted traj g2 #3 -> 2280150_3  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:10] submitted traj g2 #4 -> 2280151_4  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:10] submitted traj g2 #5 -> 2280152_5  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #6 -> 2280153_6  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #7 -> 2280154_7  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #8 -> 2280155_8  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #9 -> 2280156_9  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #10 -> 2280157_10  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #11 -> 2280158_11  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #12 -> 2280159_12  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #13 -> 2280160_13  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #14 -> 2280161_14  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #15 -> 2280162_15  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #16 -> 2280163_16  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #17 -> 2280164_17  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #18 -> 2280165_18  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #19 -> 2280166_19  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #20 -> 2280167_20  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #21 -> 2280168_21  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #22 -> 2280169_22  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #23 -> 2280170_23  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #24 -> 2280171_24  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #25 -> 2280172_25  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #26 -> 2280173_26  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #27 -> 2280174_27  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #0 -> 2280175_0  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #1 -> 2280176_1  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #2 -> 2280177_2  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #3 -> 2280178_3  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #4 -> 2280179_4  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #5 -> 2280180_5  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #6 -> 2280181_6  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #7 -> 2280182_7  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #8 -> 2280183_8  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #9 -> 2280184_9  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #10 -> 2280185_10  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #11 -> 2280186_11  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #12 -> 2280187_12  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #13 -> 2280188_13  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #14 -> 2280189_14  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #15 -> 2280190_15  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #16 -> 2280191_16  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #17 -> 2280192_17  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #18 -> 2280193_18  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #19 -> 2280194_19  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #20 -> 2280195_20  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #21 -> 2280196_21  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #22 -> 2280197_22  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #23 -> 2280198_23  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #24 -> 2280199_24  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #25 -> 2280200_25  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #26 -> 2280201_26  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #27 -> 2280202_27  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+E5-weak status  2026-09-11 11:46:11
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 0/420  g3 0/420
+jobs: 0 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 11:51:12
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 197/420
+jobs: 17 running, 4 pending
+alerts: none
+E5-weak status  2026-09-11 11:56:13
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 210/420
+jobs: 14 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 12:01:13
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 210/420
+jobs: 14 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 12:06:13
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 212/420
+jobs: 14 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 12:11:14
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 227/420
+jobs: 14 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 12:16:14
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 252/420
+jobs: 14 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 12:21:14
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 280/420
+jobs: 14 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 12:26:15
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 307/420
+jobs: 14 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 12:31:15
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 335/420
+jobs: 14 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 12:36:15
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 360/420
+jobs: 14 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 12:41:16
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 383/420
+jobs: 11 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 12:46:16
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 395/420
+jobs: 4 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 12:51:17
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 401/420
+jobs: 4 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 12:56:17
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 3 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 13:01:17
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 13:06:18
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 13:11:19
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 13:16:19
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 13:21:20
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 13:26:20
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 13:31:20
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 13:36:21
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 13:41:21
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 13:46:22
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 13:51:22
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 13:56:23
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 14:01:23
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 14:06:23
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 405/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 14:11:24
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 406/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 14:16:24
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 407/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 14:21:24
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 409/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 14:26:25
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 411/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 14:31:25
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 413/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 14:36:25
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 415/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 14:41:26
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 417/420
+jobs: 1 running, 0 pending
+alerts: none
+E5-weak status  2026-09-11 14:46:26
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 419/420
+jobs: 1 running, 0 pending
+alerts: none
+[2026-09-11 14:51:26] ALL DONE
+E5-weak status  2026-09-11 14:51:26
+ALL DONE
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 420/420
+jobs: 1 running, 0 pending
+alerts: none

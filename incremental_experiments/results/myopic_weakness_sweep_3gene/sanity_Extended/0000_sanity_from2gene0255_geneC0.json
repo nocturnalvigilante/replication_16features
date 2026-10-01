@@ -1,0 +1,66 @@
+{
+  "family": "Extended",
+  "preset": "Base",
+  "allele_label": "LowHigh",
+  "allele_freqs": {
+    "GeneA": 0.02,
+    "GeneB": 0.15,
+    "GeneC": 0.0
+  },
+  "fixed_cost": 0.005,
+  "variable_cost": 0.01,
+  "genec": "pattern",
+  "source_2gene_row": 255,
+  "genes": [
+    "GeneA",
+    "GeneB",
+    "GeneC"
+  ],
+  "coefs_used": {
+    "a_gene": {
+      "GeneA": -0.08,
+      "GeneB": -0.06,
+      "GeneC": -0.045
+    },
+    "b_gene": {
+      "GeneA": -0.04,
+      "GeneB": -0.03,
+      "GeneC": -0.0225
+    },
+    "delta_gene": {
+      "GeneA": 0.6,
+      "GeneB": 0.7,
+      "GeneC": 0.8
+    }
+  },
+  "V_root": -0.09441706995863955,
+  "V_stop_root": -0.21640096728,
+  "headroom": 0.12198389732136045,
+  "L_myopic": -0.10048268415884833,
+  "ratio2_myopic": 0.04972471230550391,
+  "abs_regret_myopic": 0.006065614200208777,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "test",
+    "Grandfather"
+  ],
+  "root_match": true,
+  "n_states": 107728,
+  "sec_belief": 12.714688777923584,
+  "sec_dp": 2.0244204998016357,
+  "sec_myopic": 0.3425936698913574,
+  "peak_rss_gb": 2.80987548828125,
+  "vs_2gene": {
+    "abs_diff": {
+      "V_root": 0.0,
+      "V_stop_root": 0.0,
+      "L_myopic": 0.0
+    },
+    "root_action_myopic_same": true,
+    "root_action_dp_same": true,
+    "pass": true
+  }
+}

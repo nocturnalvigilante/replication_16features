@@ -1,0 +1,7 @@
+E5-weak status  2026-09-11 14:51:26
+ALL DONE
+train epochs (of 500): g2 s0: done  g2 s1: done  g2 s2: done  g3 s0: done  g3 s1: done  g3 s2: done
+eval configs scored:   g2 420/420  g3 420/420
+trajectories done:     g2 420/420  g3 420/420
+jobs: 1 running, 0 pending
+alerts: none

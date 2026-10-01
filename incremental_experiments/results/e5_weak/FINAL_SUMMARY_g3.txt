@@ -1,0 +1,10 @@
+3-gene: 420/420 test configs evaluated; evaluator check max diff 3.4e-13
+                   n   myopic      gnn   first action = DP: myopic / gnn
+all              420   0.0175   0.0208   181/420 / 94.3
+fixed 0.005       84   0.0067   0.0099   58/84 / 18.7
+fixed 0.010       84   0.0115   0.0141   43/84 / 18.7
+fixed 0.015       84   0.0166   0.0193   33/84 / 19.0
+fixed 0.020       84   0.0213   0.0253   28/84 / 18.7
+fixed 0.030       84   0.0311   0.0353   19/84 / 19.3
+ThreeGeneration  210   0.0145   0.0192   100/210 / 62.0
+Extended         210   0.0204   0.0224   81/210 / 32.3

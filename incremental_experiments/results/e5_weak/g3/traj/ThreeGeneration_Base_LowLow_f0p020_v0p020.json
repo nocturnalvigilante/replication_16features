@@ -1,0 +1,44 @@
+{
+  "family": "ThreeGeneration",
+  "preset": "Base",
+  "allele_label": "LowLow",
+  "fixed_cost": 0.02,
+  "variable_cost": 0.02,
+  "n_steps": 4,
+  "steps": [
+    {
+      "dp": "test Child",
+      "myopic": "test Grandfather",
+      "gnn_seed0": "test Child",
+      "gnn_seed1": "test Grandfather",
+      "gnn_seed2": "test Mother"
+    },
+    {
+      "dp": "stop",
+      "myopic": "test Father",
+      "gnn_seed0": "test Child",
+      "gnn_seed1": "test Child",
+      "gnn_seed2": "test Mother"
+    },
+    {
+      "dp": "stop",
+      "myopic": "test Grandmother",
+      "gnn_seed0": "test Grandmother",
+      "gnn_seed1": "stop",
+      "gnn_seed2": "stop"
+    },
+    {
+      "dp": "stop",
+      "myopic": "stop",
+      "gnn_seed0": "stop",
+      "gnn_seed1": "stop",
+      "gnn_seed2": "test Mother"
+    }
+  ],
+  "match_myopic": 1,
+  "match_gnn": {
+    "gnn_seed0": 2,
+    "gnn_seed1": 2,
+    "gnn_seed2": 1
+  }
+}

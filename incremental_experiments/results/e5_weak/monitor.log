@@ -1,0 +1,204 @@
+[2026-09-10 23:18:02] monitor 2277599 started on g002; successor 2277600 queued
+[2026-09-10 23:33:08] g2: all 420 test configs scored -> FINAL_SUMMARY_g2.txt
+[2026-09-11 03:08:17] monitor 2277600 started on g002; successor 2278379 queued
+[2026-09-11 05:28:22] submitted eval g3 #0 -> 2278838_0  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #1 -> 2278839_1  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #2 -> 2278840_2  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #3 -> 2278841_3  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #4 -> 2278842_4  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #5 -> 2278843_5  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #6 -> 2278844_6  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #7 -> 2278845_7  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #8 -> 2278846_8  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #9 -> 2278847_9  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #10 -> 2278848_10  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #11 -> 2278849_11  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #12 -> 2278850_12  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #13 -> 2278851_13  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #14 -> 2278852_14  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #15 -> 2278853_15  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #16 -> 2278854_16  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #17 -> 2278855_17  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #18 -> 2278856_18  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #19 -> 2278857_19  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #20 -> 2278858_20  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #21 -> 2278859_21  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #22 -> 2278860_22  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #23 -> 2278861_23  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #24 -> 2278862_24  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #25 -> 2278863_25  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #26 -> 2278864_26  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 05:28:22] submitted eval g3 #27 -> 2278865_27  (--cpus-per-task=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 06:58:36] monitor 2278379 started on p007; successor 2279192 queued
+[2026-09-11 10:38:53] g3: all 420 test configs scored -> FINAL_SUMMARY_g3.txt
+[2026-09-11 10:38:53] ALL DONE
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_0 --array=0 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_1 --array=1 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_2 --array=2 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_3 --array=3 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_4 --array=4 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_5 --array=5 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_6 --array=6 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_7 --array=7 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_8 --array=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_9 --array=9 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_10 --array=10 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_11 --array=11 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_12 --array=12 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_13 --array=13 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_14 --array=14 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_15 --array=15 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_16 --array=16 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_17 --array=17 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_18 --array=18 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_19 --array=19 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_20 --array=20 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_21 --array=21 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_22 --array=22 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_23 --array=23 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_24 --array=24 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_25 --array=25 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_26 --array=26 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_27 --array=27 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_0 --array=0 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_1 --array=1 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_2 --array=2 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_3 --array=3 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_4 --array=4 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_5 --array=5 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_6 --array=6 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_7 --array=7 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_8 --array=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_9 --array=9 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_10 --array=10 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_11 --array=11 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_12 --array=12 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_13 --array=13 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_14 --array=14 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_15 --array=15 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_16 --array=16 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_17 --array=17 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_18 --array=18 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_19 --array=19 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_20 --array=20 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_21 --array=21 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_22 --array=22 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_23 --array=23 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_24 --array=24 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_25 --array=25 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_26 --array=26 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_27 --array=27 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_0 --array=0 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_1 --array=1 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_2 --array=2 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_3 --array=3 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_4 --array=4 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_5 --array=5 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_6 --array=6 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_7 --array=7 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_8 --array=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_9 --array=9 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_10 --array=10 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_11 --array=11 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_12 --array=12 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_13 --array=13 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_14 --array=14 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_15 --array=15 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_16 --array=16 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_17 --array=17 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_18 --array=18 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_19 --array=19 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_20 --array=20 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_21 --array=21 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_22 --array=22 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_23 --array=23 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_24 --array=24 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_25 --array=25 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_26 --array=26 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj2_27 --array=27 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 submit_e5_weak.sh traj 2
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_0 --array=0 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_1 --array=1 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_2 --array=2 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_3 --array=3 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_4 --array=4 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_5 --array=5 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_6 --array=6 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_7 --array=7 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_8 --array=8 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_9 --array=9 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_10 --array=10 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_11 --array=11 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_12 --array=12 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_13 --array=13 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_14 --array=14 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_15 --array=15 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_16 --array=16 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_17 --array=17 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_18 --array=18 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_19 --array=19 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_20 --array=20 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_21 --array=21 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_22 --array=22 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_23 --array=23 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_24 --array=24 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_25 --array=25 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_26 --array=26 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:00] DRY-RUN would submit: sbatch --parsable --job-name=e5w_traj3_27 --array=27 --partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 submit_e5_weak.sh traj 3
+[2026-09-11 11:46:10] monitor 2280145 started on g002; successor 2280146 queued
+[2026-09-11 11:46:10] submitted traj g2 #0 -> 2280147_0  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:10] submitted traj g2 #1 -> 2280148_1  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:10] submitted traj g2 #2 -> 2280149_2  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:10] submitted traj g2 #3 -> 2280150_3  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:10] submitted traj g2 #4 -> 2280151_4  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:10] submitted traj g2 #5 -> 2280152_5  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #6 -> 2280153_6  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #7 -> 2280154_7  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #8 -> 2280155_8  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #9 -> 2280156_9  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #10 -> 2280157_10  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #11 -> 2280158_11  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #12 -> 2280159_12  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #13 -> 2280160_13  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #14 -> 2280161_14  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #15 -> 2280162_15  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #16 -> 2280163_16  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #17 -> 2280164_17  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #18 -> 2280165_18  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #19 -> 2280166_19  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #20 -> 2280167_20  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #21 -> 2280168_21  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #22 -> 2280169_22  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #23 -> 2280170_23  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #24 -> 2280171_24  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #25 -> 2280172_25  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #26 -> 2280173_26  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g2 #27 -> 2280174_27  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=32768 --time=02:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #0 -> 2280175_0  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #1 -> 2280176_1  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #2 -> 2280177_2  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #3 -> 2280178_3  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #4 -> 2280179_4  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #5 -> 2280180_5  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #6 -> 2280181_6  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #7 -> 2280182_7  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #8 -> 2280183_8  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #9 -> 2280184_9  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #10 -> 2280185_10  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #11 -> 2280186_11  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #12 -> 2280187_12  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #13 -> 2280188_13  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=65536 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #14 -> 2280189_14  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #15 -> 2280190_15  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #16 -> 2280191_16  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #17 -> 2280192_17  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #18 -> 2280193_18  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #19 -> 2280194_19  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #20 -> 2280195_20  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #21 -> 2280196_21  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #22 -> 2280197_22  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #23 -> 2280198_23  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #24 -> 2280199_24  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #25 -> 2280200_25  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #26 -> 2280201_26  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 11:46:11] submitted traj g3 #27 -> 2280202_27  (--partition=threedle-own,threedle-contrib,general,peanut-cpu --mem=307200 --time=04:00:00 )
+[2026-09-11 14:51:26] ALL DONE

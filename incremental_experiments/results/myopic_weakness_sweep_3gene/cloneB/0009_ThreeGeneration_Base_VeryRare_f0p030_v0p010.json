@@ -1,0 +1,55 @@
+{
+  "family": "ThreeGeneration",
+  "preset": "Base",
+  "allele_label": "VeryRare",
+  "allele_freqs": {
+    "GeneA": 0.01,
+    "GeneB": 0.01,
+    "GeneC": 0.01
+  },
+  "fixed_cost": 0.03,
+  "variable_cost": 0.01,
+  "genec": "cloneB",
+  "genes": [
+    "GeneA",
+    "GeneB",
+    "GeneC"
+  ],
+  "coefs_used": {
+    "a_gene": {
+      "GeneA": -0.08,
+      "GeneB": -0.06,
+      "GeneC": -0.06
+    },
+    "b_gene": {
+      "GeneA": -0.04,
+      "GeneB": -0.03,
+      "GeneC": -0.03
+    },
+    "delta_gene": {
+      "GeneA": 0.6,
+      "GeneB": 0.7,
+      "GeneC": 0.7
+    }
+  },
+  "V_root": -0.041146879759999984,
+  "V_stop_root": -0.041146879759999984,
+  "headroom": 0.0,
+  "L_myopic": -0.06630952548077818,
+  "ratio2_myopic": 0.0,
+  "abs_regret_myopic": 0.02516264572077819,
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "root_action_dp": [
+    "stop",
+    null
+  ],
+  "root_match": false,
+  "n_states": 1054528,
+  "sec_belief": 91.1152617931366,
+  "sec_dp": 10.970398664474487,
+  "sec_myopic": 4.657376050949097,
+  "peak_rss_gb": 17.44721221923828
+}

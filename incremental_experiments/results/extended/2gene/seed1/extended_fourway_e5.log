@@ -1,0 +1,198 @@
+[extended_fourway] 2026-09-10T18:04:29.993992  genes=2  seed=1  family=Extended (OOD -- never trained on)  GNN=E5 bidir rounds=3  MLP=E2 ce
+loaded GNN (e5) /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/e5_gnn_rounds3_2gene/seed_runs/seed1/gnn_q_e5_2gene.pt
+loaded MLP (e5) /net/projects/ranalab/rajhansini/replication_16features/fixing_gnn_q/results/mlp_q_ce_2gene/seed_runs/seed1/mlp_q_ce_2gene.pt
+
+==========================================================================================
+Extended_LowHigh_Base_2gene
+==========================================================================================
+  states=107,728  V*(root)=-0.1306  V_stop(root)=-0.2164
+  ratio2: myopic=0.1429  gnn=0.1613  mlp=0.1215
+  step state                                                       DP (truth)        MYOPIC          GNN             MLP             agree
+  0    root                                                        TEST Child        TEST GrandfatherTEST Child      TEST Child      partial
+  1    {Grandfather:(0, 0)}                                        TEST Grandmother  TEST Father     TEST GrandmotherTEST Child      partial
+  2    {Father:(0, 0), Grandfather:(0, 0)}                         TEST Grandmother  TEST Uncle      TEST GrandmotherTEST Child      partial
+  3    {Father:(0, 0), Grandfather:(0, 0), Uncle:(0, 0)}           TEST Mother       TEST GrandmotherTEST Mother     TEST Child      partial
+  4    {Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Child      TEST Mother     TEST Child      partial
+  5    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}STOP              STOP            TEST Mother     TEST Mother     partial
+  agreement vs DP: myopic=1/6=0.167  gnn=5/6=0.833  mlp=1/6=0.167  all4=0/6=0.000
+  [resume] checkpointed -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/partial_e5/LowHigh_Base.json
+
+==========================================================================================
+Extended_LowHigh_Aggressive_2gene
+==========================================================================================
+  states=107,728  V*(root)=-0.1337  V_stop(root)=-0.3182
+  ratio2: myopic=0.0647  gnn=0.0550  mlp=0.0739
+  step state                                                       DP (truth)        MYOPIC          GNN             MLP             agree
+  0    root                                                        TEST Grandfather  TEST GrandfatherTEST Mother     TEST Child      partial
+  1    {Grandfather:(0, 0)}                                        TEST Grandmother  TEST Father     TEST GrandmotherTEST Child      partial
+  2    {Father:(0, 0), Grandfather:(0, 0)}                         TEST Mother       TEST Uncle      TEST GrandmotherTEST Child      none
+  3    {Father:(0, 0), Grandfather:(0, 0), Uncle:(0, 0)}           TEST Mother       TEST GrandmotherTEST Mother     TEST Child      partial
+  4    {Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Child      TEST Mother     TEST Child      partial
+  5    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Mother     TEST Mother     TEST Mother     ALL
+  6    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Mother:(0, 0), Uncle:(0, 0)}STOP              STOP            STOP            STOP            ALL
+  agreement vs DP: myopic=3/7=0.429  gnn=5/7=0.714  mlp=2/7=0.286  all4=2/7=0.286
+  [resume] checkpointed -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/partial_e5/LowHigh_Aggressive.json
+
+==========================================================================================
+Extended_MediumEven_Base_2gene
+==========================================================================================
+  states=107,728  V*(root)=-0.1421  V_stop(root)=-0.2563
+  ratio2: myopic=0.1145  gnn=0.0713  mlp=0.1056
+  step state                                                       DP (truth)        MYOPIC          GNN             MLP             agree
+  0    root                                                        TEST Grandfather  TEST GrandfatherTEST Mother     TEST Child      partial
+  1    {Grandfather:(0, 0)}                                        TEST Grandmother  TEST Father     TEST GrandmotherTEST Child      partial
+  2    {Father:(0, 0), Grandfather:(0, 0)}                         TEST Grandmother  TEST Uncle      TEST GrandmotherTEST Child      partial
+  3    {Father:(0, 0), Grandfather:(0, 0), Uncle:(0, 0)}           TEST Mother       TEST GrandmotherTEST Mother     TEST Child      partial
+  4    {Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Child      TEST Mother     TEST Child      partial
+  5    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}STOP              STOP            TEST Mother     TEST Mother     partial
+  agreement vs DP: myopic=2/6=0.333  gnn=4/6=0.667  mlp=0/6=0.000  all4=0/6=0.000
+  [resume] checkpointed -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/partial_e5/MediumEven_Base.json
+
+==========================================================================================
+Extended_MediumEven_Aggressive_2gene
+==========================================================================================
+  states=107,728  V*(root)=-0.1488  V_stop(root)=-0.3800
+  ratio2: myopic=0.0570  gnn=0.0586  mlp=0.0647
+  step state                                                       DP (truth)        MYOPIC          GNN             MLP             agree
+  0    root                                                        TEST Grandfather  TEST GrandfatherTEST Mother     TEST Child      partial
+  1    {Grandfather:(0, 0)}                                        TEST Grandmother  TEST Father     TEST GrandmotherTEST Child      partial
+  2    {Father:(0, 0), Grandfather:(0, 0)}                         TEST Mother       TEST Uncle      TEST GrandmotherTEST Child      none
+  3    {Father:(0, 0), Grandfather:(0, 0), Uncle:(0, 0)}           TEST Mother       TEST GrandmotherTEST Mother     TEST Child      partial
+  4    {Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Child      TEST Mother     TEST Child      partial
+  5    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Mother     TEST Mother     TEST Mother     ALL
+  6    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Mother:(0, 0), Uncle:(0, 0)}STOP              STOP            STOP            STOP            ALL
+  agreement vs DP: myopic=3/7=0.429  gnn=5/7=0.714  mlp=2/7=0.286  all4=2/7=0.286
+  [resume] checkpointed -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/partial_e5/MediumEven_Aggressive.json
+
+==========================================================================================
+Extended_LowLow_Base_2gene
+==========================================================================================
+  states=107,728  V*(root)=-0.0553  V_stop(root)=-0.0726
+  ratio2: myopic=1.2966  gnn=0.4205  mlp=1.2038
+  step state                                                       DP (truth)        MYOPIC          GNN             MLP             agree
+  0    root                                                        TEST Uncle        TEST GrandfatherTEST Uncle      TEST Child      partial
+  1    {Grandfather:(0, 0)}                                        TEST Grandmother  TEST Father     TEST GrandmotherTEST Child      partial
+  2    {Father:(0, 0), Grandfather:(0, 0)}                         STOP              TEST Uncle      TEST GrandmotherTEST Child      none
+  3    {Father:(0, 0), Grandfather:(0, 0), Uncle:(0, 0)}           STOP              TEST GrandmotherTEST Mother     TEST Child      none
+  4    {Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}STOP              TEST Child      TEST Mother     TEST Child      none
+  5    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}STOP              STOP            TEST Mother     TEST Mother     partial
+  agreement vs DP: myopic=1/6=0.167  gnn=2/6=0.333  mlp=0/6=0.000  all4=0/6=0.000
+  [resume] checkpointed -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/partial_e5/LowLow_Base.json
+
+==========================================================================================
+Extended_LowLow_Aggressive_2gene
+==========================================================================================
+  states=107,728  V*(root)=-0.0613  V_stop(root)=-0.1086
+  ratio2: myopic=0.4130  gnn=0.1198  mlp=0.3685
+  step state                                                       DP (truth)        MYOPIC          GNN             MLP             agree
+  0    root                                                        TEST Grandfather  TEST GrandfatherTEST Uncle      TEST Child      partial
+  1    {Grandfather:(0, 0)}                                        TEST Grandmother  TEST Father     TEST GrandmotherTEST Child      partial
+  2    {Father:(0, 0), Grandfather:(0, 0)}                         TEST Mother       TEST Uncle      TEST GrandmotherTEST Child      none
+  3    {Father:(0, 0), Grandfather:(0, 0), Uncle:(0, 0)}           TEST Mother       TEST GrandmotherTEST Mother     TEST Child      partial
+  4    {Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Child      TEST Mother     TEST Child      partial
+  5    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}STOP              STOP            TEST Mother     TEST Mother     partial
+  agreement vs DP: myopic=2/6=0.333  gnn=3/6=0.500  mlp=0/6=0.000  all4=0/6=0.000
+  [resume] checkpointed -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/partial_e5/LowLow_Aggressive.json
+
+==========================================================================================
+Extended_HighHigh_Base_2gene
+==========================================================================================
+  states=107,728  V*(root)=-0.2235  V_stop(root)=-0.4136
+  ratio2: myopic=0.0567  gnn=0.0605  mlp=0.0631
+  step state                                                       DP (truth)        MYOPIC          GNN             MLP             agree
+  0    root                                                        TEST Child        TEST GrandfatherTEST Mother     TEST Child      partial
+  1    {Grandfather:(0, 0)}                                        TEST Child        TEST Father     TEST GrandmotherTEST Child      partial
+  2    {Father:(0, 0), Grandfather:(0, 0)}                         TEST Grandmother  TEST Uncle      TEST GrandmotherTEST Child      partial
+  3    {Father:(0, 0), Grandfather:(0, 0), Uncle:(0, 0)}           TEST Mother       TEST GrandmotherTEST GrandmotherTEST Child      none
+  4    {Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Child      TEST Mother     TEST Child      partial
+  5    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Mother     TEST Mother     TEST Mother     ALL
+  6    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Mother:(0, 0), Uncle:(0, 0)}STOP              STOP            STOP            STOP            ALL
+  agreement vs DP: myopic=2/7=0.286  gnn=4/7=0.571  mlp=4/7=0.571  all4=2/7=0.286
+  [resume] checkpointed -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/partial_e5/HighHigh_Base.json
+
+==========================================================================================
+Extended_HighHigh_Aggressive_2gene
+==========================================================================================
+  states=107,728  V*(root)=-0.2354  V_stop(root)=-0.6058
+  ratio2: myopic=0.0265  gnn=0.0445  mlp=0.0375
+  step state                                                       DP (truth)        MYOPIC          GNN             MLP             agree
+  0    root                                                        TEST Grandfather  TEST GrandfatherTEST Mother     TEST Child      partial
+  1    {Grandfather:(0, 0)}                                        TEST Grandmother  TEST Father     TEST GrandmotherTEST Child      partial
+  2    {Father:(0, 0), Grandfather:(0, 0)}                         TEST Grandmother  TEST Uncle      TEST GrandmotherTEST Child      partial
+  3    {Father:(0, 0), Grandfather:(0, 0), Uncle:(0, 0)}           TEST Mother       TEST GrandmotherTEST Mother     TEST Child      partial
+  4    {Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Child      TEST Mother     TEST Child      partial
+  5    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Mother     TEST Mother     TEST Mother     ALL
+  6    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Mother:(0, 0), Uncle:(0, 0)}STOP              STOP            STOP            STOP            ALL
+  agreement vs DP: myopic=3/7=0.429  gnn=6/7=0.857  mlp=2/7=0.286  all4=2/7=0.286
+  [resume] checkpointed -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/partial_e5/HighHigh_Aggressive.json
+
+==========================================================================================
+Extended_MixedA_Base_2gene
+==========================================================================================
+  states=107,728  V*(root)=-0.1052  V_stop(root)=-0.1720
+  ratio2: myopic=0.2102  gnn=0.1580  mlp=0.1847
+  step state                                                       DP (truth)        MYOPIC          GNN             MLP             agree
+  0    root                                                        TEST Grandfather  TEST GrandfatherTEST Child      TEST Child      partial
+  1    {Grandfather:(0, 0)}                                        TEST Grandmother  TEST Father     TEST GrandmotherTEST Child      partial
+  2    {Father:(0, 0), Grandfather:(0, 0)}                         TEST Grandmother  TEST Uncle      TEST GrandmotherTEST Child      partial
+  3    {Father:(0, 0), Grandfather:(0, 0), Uncle:(0, 0)}           TEST Mother       TEST GrandmotherTEST Mother     TEST Child      partial
+  4    {Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Child      TEST Mother     TEST Child      partial
+  5    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}STOP              STOP            TEST Mother     TEST Mother     partial
+  agreement vs DP: myopic=2/6=0.333  gnn=4/6=0.667  mlp=0/6=0.000  all4=0/6=0.000
+  [resume] checkpointed -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/partial_e5/MixedA_Base.json
+
+==========================================================================================
+Extended_MixedA_Aggressive_2gene
+==========================================================================================
+  states=107,728  V*(root)=-0.1083  V_stop(root)=-0.2550
+  ratio2: myopic=0.1020  gnn=0.1012  mlp=0.1052
+  step state                                                       DP (truth)        MYOPIC          GNN             MLP             agree
+  0    root                                                        TEST Grandfather  TEST GrandfatherTEST GrandfatherTEST Child      partial
+  1    {Grandfather:(0, 0)}                                        TEST Grandmother  TEST Father     TEST GrandmotherTEST Child      partial
+  2    {Father:(0, 0), Grandfather:(0, 0)}                         TEST Grandmother  TEST Uncle      TEST GrandmotherTEST Child      partial
+  3    {Father:(0, 0), Grandfather:(0, 0), Uncle:(0, 0)}           TEST Mother       TEST GrandmotherTEST Mother     TEST Child      partial
+  4    {Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Child      TEST Mother     TEST Child      partial
+  5    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Mother     TEST Mother     TEST Mother     ALL
+  6    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Mother:(0, 0), Uncle:(0, 0)}STOP              STOP            STOP            STOP            ALL
+  agreement vs DP: myopic=3/7=0.429  gnn=7/7=1.000  mlp=2/7=0.286  all4=2/7=0.286
+  [resume] checkpointed -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/partial_e5/MixedA_Aggressive.json
+
+==========================================================================================
+Extended_MixedB_Base_2gene
+==========================================================================================
+  states=107,728  V*(root)=-0.1396  V_stop(root)=-0.2475
+  ratio2: myopic=0.1157  gnn=0.0589  mlp=0.1026
+  step state                                                       DP (truth)        MYOPIC          GNN             MLP             agree
+  0    root                                                        TEST Grandfather  TEST GrandfatherTEST Mother     TEST Child      partial
+  1    {Grandfather:(0, 0)}                                        TEST Grandmother  TEST Father     TEST GrandmotherTEST Child      partial
+  2    {Father:(0, 0), Grandfather:(0, 0)}                         TEST Grandmother  TEST Uncle      TEST GrandmotherTEST Child      partial
+  3    {Father:(0, 0), Grandfather:(0, 0), Uncle:(0, 0)}           TEST Mother       TEST GrandmotherTEST Mother     TEST Child      partial
+  4    {Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Child      TEST Mother     TEST Child      partial
+  5    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}STOP              STOP            TEST Mother     TEST Mother     partial
+  agreement vs DP: myopic=2/6=0.333  gnn=4/6=0.667  mlp=0/6=0.000  all4=0/6=0.000
+  [resume] checkpointed -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/partial_e5/MixedB_Base.json
+
+==========================================================================================
+Extended_MixedB_Aggressive_2gene
+==========================================================================================
+  states=107,728  V*(root)=-0.1443  V_stop(root)=-0.3661
+  ratio2: myopic=0.0565  gnn=0.0582  mlp=0.0587
+  step state                                                       DP (truth)        MYOPIC          GNN             MLP             agree
+  0    root                                                        TEST Grandfather  TEST GrandfatherTEST Mother     TEST Child      partial
+  1    {Grandfather:(0, 0)}                                        TEST Grandmother  TEST Father     TEST GrandmotherTEST Child      partial
+  2    {Father:(0, 0), Grandfather:(0, 0)}                         TEST Grandmother  TEST Uncle      TEST GrandmotherTEST Child      partial
+  3    {Father:(0, 0), Grandfather:(0, 0), Uncle:(0, 0)}           TEST Mother       TEST GrandmotherTEST Mother     TEST Child      partial
+  4    {Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Child      TEST Mother     TEST Child      partial
+  5    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Uncle:(0, 0)}TEST Mother       TEST Mother     TEST Mother     TEST Mother     ALL
+  6    {Child:(0, 0), Father:(0, 0), Grandfather:(0, 0), Grandmother:(0, 0), Mother:(0, 0), Uncle:(0, 0)}STOP              STOP            STOP            STOP            ALL
+  agreement vs DP: myopic=3/7=0.429  gnn=6/7=0.857  mlp=2/7=0.286  all4=2/7=0.286
+  [resume] checkpointed -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/partial_e5/MixedB_Aggressive.json
+
+==========================================================================================
+OVERALL (whole trajectory)
+  vs DP: myopic=27/78=0.346  gnn=55/78=0.705  mlp=15/78=0.192  all4=12/78=0.154
+OVERALL (root / first action only)
+  vs DP: myopic=9/12  gnn=3/12  mlp=2/12
+OVERALL avg ratio2: myopic=0.2214  gnn=0.1140  mlp=0.2075
+saved -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/extended_fourway_e5.json
+saved -> /net/projects/ranalab/rajhansini/replication_16features/incremental_experiments/results/extended/2gene/seed1/extended_fourway_e5.log

@@ -1,0 +1,65 @@
+{
+  "family": "Extended",
+  "preset": "Aggressive",
+  "allele_label": "HighHigh",
+  "fixed_cost": 0.01,
+  "variable_cost": 0.01,
+  "n_steps": 7,
+  "steps": [
+    {
+      "dp": "test Grandfather",
+      "myopic": "test Grandfather",
+      "gnn_seed0": "test Uncle",
+      "gnn_seed1": "test Grandfather",
+      "gnn_seed2": "test Father"
+    },
+    {
+      "dp": "test Mother",
+      "myopic": "test Father",
+      "gnn_seed0": "test Child",
+      "gnn_seed1": "test Child",
+      "gnn_seed2": "test Father"
+    },
+    {
+      "dp": "test Mother",
+      "myopic": "test Uncle",
+      "gnn_seed0": "test Child",
+      "gnn_seed1": "test Grandmother",
+      "gnn_seed2": "test Mother"
+    },
+    {
+      "dp": "test Mother",
+      "myopic": "test Grandmother",
+      "gnn_seed0": "test Grandmother",
+      "gnn_seed1": "test Grandmother",
+      "gnn_seed2": "test Grandmother"
+    },
+    {
+      "dp": "test Mother",
+      "myopic": "test Child",
+      "gnn_seed0": "test Mother",
+      "gnn_seed1": "test Mother",
+      "gnn_seed2": "test Mother"
+    },
+    {
+      "dp": "test Mother",
+      "myopic": "test Mother",
+      "gnn_seed0": "test Mother",
+      "gnn_seed1": "test Mother",
+      "gnn_seed2": "test Mother"
+    },
+    {
+      "dp": "stop",
+      "myopic": "stop",
+      "gnn_seed0": "stop",
+      "gnn_seed1": "stop",
+      "gnn_seed2": "stop"
+    }
+  ],
+  "match_myopic": 3,
+  "match_gnn": {
+    "gnn_seed0": 3,
+    "gnn_seed1": 4,
+    "gnn_seed2": 4
+  }
+}

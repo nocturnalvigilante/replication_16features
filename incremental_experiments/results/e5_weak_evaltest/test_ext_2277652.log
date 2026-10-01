@@ -1,0 +1,26 @@
+[Extended LowLow Base] belief 9,190,992 states in 1063s
+  Extended_Base_LowLow_f0p005_v0p010  regret gnn 0.01078  myopic 0.00981  (evaluator check 0.0e+00, 1292s)
+  Extended_Base_LowLow_f0p005_v0p020  regret gnn 0.01146  myopic 0.00874  (evaluator check 0.0e+00, 1206s)
+	Command being timed: "/net/projects/ranalab/rajhansini/conda_envs/genetic-rl/bin/python -u incremental_experiments/e5_weak.py --stage eval --genes 3 --unit 18 --limit 2 --out incremental_experiments/results/e5_weak_evaltest"
+	User time (seconds): 3547.58
+	System time (seconds): 175.00
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:02:08
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 198486540
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1724
+	Minor (reclaiming a frame) page faults: 51144345
+	Voluntary context switches: 18850
+	Involuntary context switches: 12106
+	Swaps: 0
+	File system inputs: 422720
+	File system outputs: 16
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

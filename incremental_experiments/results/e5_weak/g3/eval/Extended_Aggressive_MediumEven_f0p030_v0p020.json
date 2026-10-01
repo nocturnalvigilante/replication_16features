@@ -1,0 +1,63 @@
+{
+  "family": "Extended",
+  "preset": "Aggressive",
+  "allele_label": "MediumEven",
+  "allele_freqs": {
+    "GeneA": 0.08,
+    "GeneB": 0.08,
+    "GeneC": 0.08
+  },
+  "fixed_cost": 0.03,
+  "variable_cost": 0.02,
+  "V_root": -0.2620417214317914,
+  "V_stop_root": -0.4999383244799999,
+  "L_myopic": -0.29582787854443654,
+  "abs_regret_myopic": 0.033786157112645154,
+  "root_action_dp": [
+    "test",
+    "Uncle"
+  ],
+  "root_action_myopic": [
+    "test",
+    "Grandfather"
+  ],
+  "evaluator_check_diff": 0.0,
+  "models": {
+    "gnn_seed0": {
+      "L": -0.3001250869833888,
+      "abs_regret": 0.038083365551597415,
+      "ratio2": 0.16008368788637145,
+      "root_action": [
+        "test",
+        "Uncle"
+      ],
+      "root_match_dp": true,
+      "states_visited": 726230,
+      "q_batch_check_diff": 2.384185791015625e-07
+    },
+    "gnn_seed1": {
+      "L": -0.29686940851024063,
+      "abs_regret": 0.03482768707844924,
+      "ratio2": 0.14639842113000492,
+      "root_action": [
+        "test",
+        "Child"
+      ],
+      "root_match_dp": false,
+      "states_visited": 735461,
+      "q_batch_check_diff": 2.086162567138672e-07
+    },
+    "gnn_seed2": {
+      "L": -0.29019502213812337,
+      "abs_regret": 0.028153300706331985,
+      "ratio2": 0.11834259230942806,
+      "root_action": [
+        "test",
+        "Father"
+      ],
+      "root_match_dp": false,
+      "states_visited": 648718,
+      "q_batch_check_diff": 2.384185791015625e-07
+    }
+  }
+}

@@ -36,6 +36,7 @@ import os
 import shutil
 import sys
 from datetime import datetime
+from functools import partial
 from pathlib import Path
 
 import numpy as np
@@ -129,6 +130,7 @@ REGIMES_2GENE = {
 sys.path.insert(0, str(EXPERIMENTS / "step9_gnn_3gene"))
 from build_datasets import ALLELE_FREQS as REGIMES_3GENE  # noqa: E402 -- single source of truth, not a hand copy
 PRESETS = ["Base", "Aggressive"]
+E5_N_ROUNDS = 3  # the E5 checkpoints this script evaluates (results/e5_gnn_rounds3*), same as log_e5_fourway.py
 
 
 def ds_to_tensors_generic(ds, struct_feats, genes, device):
@@ -328,6 +330,11 @@ def run(genes_n, seed, device, log, only_regime=None, only_preset=None, variant=
             gnn_q_class_src = _load_module("gnn_q_e6_ext2", HERE / "e6_train_two_gene_gnn_q.py")
             mlp_q_class_src = _load_module("mlp_q_e6_ext2", HERE / "e6_train_two_gene_mlp_q.py")
             GNNClass, MLPClass = gnn_q_class_src.GNNQBidirSumPool, mlp_q_class_src.MLPQSumPool
+        elif variant == "e5":  # E4 architecture with 3 message-passing rounds; MLP unchanged from E2
+            gnn_wt = HERE / "results" / "e5_gnn_rounds3_2gene" / "seed_runs" / f"seed{seed}" / "gnn_q_e5_2gene.pt"
+            mlp_wt = ROOT / "fixing_gnn_q" / "results" / "mlp_q_ce_2gene" / "seed_runs" / f"seed{seed}" / "mlp_q_ce_2gene.pt"
+            gnn_q_class_src = _load_module("gnn_q_e5_ext2", HERE / "e5_train_two_gene_gnn_q.py")
+            GNNClass, MLPClass = partial(gnn_q_class_src.GNNQBidir, n_rounds=E5_N_ROUNDS), mlp_q_plain.MLPQ
         else:  # e7 -- MLP unchanged from E2, same as e4
             gnn_wt = HERE / "results" / "e7_gnn_neighborpool_2gene" / "seed_runs" / f"seed{seed}" / "gnn_q_e7_2gene.pt"
             mlp_wt = ROOT / "fixing_gnn_q" / "results" / "mlp_q_ce_2gene" / "seed_runs" / f"seed{seed}" / "mlp_q_ce_2gene.pt"
@@ -348,6 +355,11 @@ def run(genes_n, seed, device, log, only_regime=None, only_preset=None, variant=
             gnn_q_class_src = _load_module("gnn_q_e6_ext3", HERE / "e6_train_gnn_q.py")
             mlp_q_class_src = _load_module("mlp_q_e6_ext3", HERE / "e6_train_mlp_q.py")
             GNNClass, MLPClass = gnn_q_class_src.GNNQBidirSumPool, mlp_q_class_src.MLPQSumPool
+        elif variant == "e5":  # E4 architecture with 3 message-passing rounds; MLP unchanged from E2
+            gnn_wt = HERE / "results" / "e5_gnn_rounds3" / "seed_runs" / f"seed{seed}" / "gnn_q_e5.pt"
+            mlp_wt = ROOT / "fixing_gnn_q" / "results" / "mlp_q_ce" / "seed_runs" / f"seed{seed}" / "mlp_q_ce.pt"
+            gnn_q_class_src = _load_module("gnn_q_e5_ext3", HERE / "e5_train_gnn_q.py")
+            GNNClass, MLPClass = partial(gnn_q_class_src.GNNQBidir, n_rounds=E5_N_ROUNDS), mlp_q_plain.MLPQ
         else:  # e7 -- MLP unchanged from E2, same as e4
             gnn_wt = HERE / "results" / "e7_gnn_neighborpool" / "seed_runs" / f"seed{seed}" / "gnn_q_e7.pt"
             mlp_wt = ROOT / "fixing_gnn_q" / "results" / "mlp_q_ce" / "seed_runs" / f"seed{seed}" / "mlp_q_ce.pt"
@@ -457,8 +469,8 @@ def main():
                          "checkpoint file instead of the full aggregate -- for 3-gene, where a single "
                          "seed's all-12-configs run can exceed the SLURM time limit before finishing.")
     p.add_argument("--preset", default=None, choices=[None, "Base", "Aggressive"])
-    p.add_argument("--variant", default="e4", choices=["e4", "e6", "e7"],
-                    help="e4 = mean pooling (bidirectional MP + CE), e6 = sum pooling. "
+    p.add_argument("--variant", default="e4", choices=["e4", "e5", "e6", "e7"],
+                    help="e4 = mean pooling (bidirectional MP + CE), e5 = e4 with 3 rounds, e6 = sum pooling. "
                          "e4 keeps the original filenames; e6 writes alongside with an _e6 suffix "
                          "so neither overwrites the other.")
     p.add_argument("--force", action="store_true",
@@ -493,6 +505,7 @@ def main():
     only_suffix = f"  only={args.regime}/{args.preset}" if args.regime else ""
     model_desc = {
         "e4": "GNN=E4 bidir  MLP=E2 ce",
+        "e5": f"GNN=E5 bidir rounds={E5_N_ROUNDS}  MLP=E2 ce",
         "e6": "GNN=E6 sumpool  MLP=E6 sumpool",
         "e7": "GNN=E7 neighborpool  MLP=E2 ce",
     }[args.variant]

@@ -1,0 +1,37 @@
+{
+  "family": "Extended",
+  "preset": "Aggressive",
+  "allele_label": "UltraRare",
+  "fixed_cost": 0.02,
+  "variable_cost": 0.03,
+  "n_steps": 3,
+  "steps": [
+    {
+      "dp": "stop",
+      "myopic": "test Grandfather",
+      "gnn_seed0": "test Uncle",
+      "gnn_seed1": "test Uncle",
+      "gnn_seed2": "test Mother"
+    },
+    {
+      "dp": "stop",
+      "myopic": "test Father",
+      "gnn_seed0": "test Child",
+      "gnn_seed1": "test Child",
+      "gnn_seed2": "test Mother"
+    },
+    {
+      "dp": "stop",
+      "myopic": "stop",
+      "gnn_seed0": "test Grandmother",
+      "gnn_seed1": "stop",
+      "gnn_seed2": "test Mother"
+    }
+  ],
+  "match_myopic": 1,
+  "match_gnn": {
+    "gnn_seed0": 0,
+    "gnn_seed1": 1,
+    "gnn_seed2": 0
+  }
+}
